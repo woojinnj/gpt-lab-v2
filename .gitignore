@@ -25,14 +25,3 @@ environment.local.yml
 /data/*
 !/data/nsmc_bpe_vocab_smoke.json
 !/data/nsmc_bpe_vocab_light.json
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.ipynb_checkpoints/
-.DS_Store
-.venv/
-*.pt
-*.pth
-data/*.txt
-data/*.jsonl
-data/*.png
