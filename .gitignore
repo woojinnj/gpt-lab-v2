@@ -9,3 +9,19 @@ __pycache__/
 data/*.txt
 data/*.jsonl
 data/*.png
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.envrc
+venv/
+.conda/
+environment.local.yml
+*.pem
+*.key
+
+# Local data (keep the starter files)
+/data/*
+!/data/nsmc_bpe_vocab_smoke.json
+!/data/nsmc_bpe_vocab_light.json
